@@ -39,8 +39,7 @@ class SortedList {
     if (this.length ===0){
       return 0
     } else {
-      console.log(this.items)
-      this.items.reduce((acc, curentValue) => acc + curentValue,0);
+      return this.items.reduce((acc, curentValue) => acc + curentValue,0);
     }
   }
 
